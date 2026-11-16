@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>生機古文｜國文家教講義與學習資源平台</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <span class="site-kicker">SHENGJI GUWEN・國文家教教材庫</span>
+      <h1 class="site-title">生機古文</h1>
+      <p class="site-subtitle">
+        整理國、高中經典古文「題解、作者、原文、賞析」線上導讀，並提供免費講義原檔下載，陪伴每位同學在文字脈絡中讀出古文的生命力。
+      </p>
+      <div class="stats-bar">
+        <div class="stat-item">總收錄篇目 <strong>38</strong> 篇</div>
+        <div class="stat-item">跨年段經典 <strong>16</strong> 篇</div>
+        <div class="stat-item">目前已上架 <strong>4</strong> 篇</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="controls-section" aria-label="講義篩選與搜尋">
+      <div class="controls-wrapper">
+        <div class="filter-group" role="tablist">
+          <button class="filter-btn active" data-filter="all">全部篇目</button>
+          <button class="filter-btn" data-filter="cross">跨年段推薦</button>
+          <button class="filter-btn" data-filter="junior">國中選文</button>
+          <button class="filter-btn" data-filter="senior">高中選文</button>
+        </div>
+
+        <div class="secondary-controls">
+          <label class="status-toggle">
+            <input type="checkbox" id="publishedOnly">
+            <span>僅顯示已上架</span>
+          </label>
+          <input type="search" id="searchInput" class="search-input" placeholder="搜尋篇名或作者⋯">
+        </div>
+      </div>
+      <p class="result-summary" id="resultSummary">目前顯示 38 篇講義</p>
+    </section>
+
+    <section class="lessons-grid" id="lessonsGrid">
+      
+      <article class="lesson-card is-published" data-grade="cross" data-status="published">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-cross">跨年段（國中／高中）</span>
+            <span class="badge badge-status-published">已上架・可閱讀與下載</span>
+          </div>
+          <h2 class="card-title">桃花源記</h2>
+          <p class="card-author">作者：陶淵明</p>
+          <p class="card-excerpt">選自《陶淵明集》，以虛實相間的小說筆法勾畫恬靜淳厚的世外桃源，寄託作者對現實的批判與理想社會的嚮往。</p>
+        </div>
+        
+        <div class="card-actions">
+          <a class="btn-read" href="lessons/01-taohuayuanji.html">線上閱讀講義</a>
+          <div class="download-row">
+            <a class="btn-dl" href="files/01-taohuayuanji.docx" download>↓ Word (.docx)</a>
+            <a class="btn-dl" href="files/01-taohuayuanji.pdf" download>↓ PDF (.pdf)</a>
+          </div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-published" data-grade="cross" data-status="published">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-cross">跨年段（國中／高中）</span>
+            <span class="badge badge-status-published">已上架・可閱讀與下載</span>
+          </div>
+          <h2 class="card-title">師說</h2>
+          <p class="card-author">作者：韓愈</p>
+          <p class="card-excerpt">選自《昌黎先生集》，提出「傳道、受業、解惑」與「道之所存，師之所存」，層層對比批判恥學於師之風。</p>
+        </div>
+        
+        <div class="card-actions">
+          <a class="btn-read" href="lessons/02-shishuo.html">線上閱讀講義</a>
+          <div class="download-row">
+            <a class="btn-dl" href="files/02-shishuo.docx" download>↓ Word (.docx)</a>
+            <a class="btn-dl" href="files/02-shishuo.pdf" download>↓ PDF (.pdf)</a>
+          </div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-published" data-grade="junior" data-status="published">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-junior">國中選文</span>
+            <span class="badge badge-status-published">已上架・可閱讀與下載</span>
+          </div>
+          <h2 class="card-title">陋室銘</h2>
+          <p class="card-author">作者：劉禹錫</p>
+          <p class="card-excerpt">選自《劉禹錫集》，以「惟吾德馨」為全文綱領，藉陋室景物、交遊與生活雅趣烘托君子安貧樂道的高雅節操。</p>
+        </div>
+        
+        <div class="card-actions">
+          <a class="btn-read" href="lessons/08-loushiming.html">線上閱讀講義</a>
+          <div class="download-row">
+            <a class="btn-dl" href="files/08-loushiming.docx" download>↓ Word (.docx)</a>
+            <a class="btn-dl" href="files/08-loushiming.pdf" download>↓ PDF (.pdf)</a>
+          </div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-published" data-grade="junior" data-status="published">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-junior">國中選文</span>
+            <span class="badge badge-status-published">已上架・可閱讀與下載</span>
+          </div>
+          <h2 class="card-title">記承天夜遊</h2>
+          <p class="card-author">作者：蘇軾</p>
+          <p class="card-excerpt">選自《東坡志林》，僅八十餘字便融合敘事、寫景與抒情，以「積水空明」寫月色，展現貶謫逆境中的曠達胸懷。</p>
+        </div>
+        
+        <div class="card-actions">
+          <a class="btn-read" href="lessons/09-jichengtianyeyou.html">線上閱讀講義</a>
+          <div class="download-row">
+            <a class="btn-dl" href="files/09-jichengtianyeyou.docx" download>↓ Word (.docx)</a>
+            <a class="btn-dl" href="files/09-jichengtianyeyou.pdf" download>↓ PDF (.pdf)</a>
+          </div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="cross" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-cross">跨年段（國中／高中）</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">項脊軒志</h2>
+          <p class="card-author">作者：歸有光</p>
+          <p class="card-excerpt">藉百年老屋的修葺與變遷，追憶親情點滴，以瑣碎日常抒發深摯動人的物是人非之感。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="cross" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-cross">跨年段（國中／高中）</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">晚遊六橋待月記</h2>
+          <p class="card-author">作者：袁宏道</p>
+          <p class="card-excerpt">公安派小品名篇，獨抒性靈，寫西湖月景與「朝煙夕嵐」之妙，展現不隨俗流的審美情趣。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="cross" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-cross">跨年段（國中／高中）</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">虬髯客傳</h2>
+          <p class="card-author">作者：杜光庭</p>
+          <p class="card-excerpt">唐人傳奇名作，透過「風塵三俠」的結識與抉擇，詮釋真命天子之氣度與知機識變的英雄豪情。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="cross" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-cross">跨年段（國中／高中）</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">幽夢影（選）</h2>
+          <p class="card-author">作者：張潮</p>
+          <p class="card-excerpt">清代格言小品集，以詩意與哲思觀察自然、讀書與人生情趣，文字清麗雋永。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="cross" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-cross">跨年段（國中／高中）</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">世說新語選</h2>
+          <p class="card-author">作者：劉義慶</p>
+          <p class="card-excerpt">筆記小說代表作，善用寥寥數語勾勒魏晉名士的風度神韻與機智言談。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="cross" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-cross">跨年段（國中／高中）</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">漁父</h2>
+          <p class="card-author">作者：屈原（舊題）</p>
+          <p class="card-excerpt">透過屈原與漁父的對話，呈現「舉世皆濁我獨清」的堅持與「與世推移」的處世哲學對照。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="cross" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-cross">跨年段（國中／高中）</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">蘭亭集序</h2>
+          <p class="card-author">作者：王羲之</p>
+          <p class="card-excerpt">記永和九年蘭亭修禊盛會，由樂轉悲，抒發對生命短促與古今同慨的深沉哲思。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="cross" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-cross">跨年段（國中／高中）</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">金山夜戲</h2>
+          <p class="card-author">作者：張岱</p>
+          <p class="card-excerpt">選自《陶庵夢憶》，記夜半於金山寺大殿張燈演劇的奇趣，盡顯晚明文人狂放不羈的本色。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="cross" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-cross">跨年段（國中／高中）</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">石壕吏</h2>
+          <p class="card-author">作者：杜甫</p>
+          <p class="card-excerpt">「三吏」名篇，以白描手法記安史之亂中官吏夜捉人丁的悲劇，深切同情百姓疾苦。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="cross" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-cross">跨年段（國中／高中）</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">留侯論</h2>
+          <p class="card-author">作者：蘇軾</p>
+          <p class="card-excerpt">論張良成大功不在智勇而在「能忍」，以圯上納履故事闡明大勇若怯的政治智慧。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="cross" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-cross">跨年段（國中／高中）</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">湖心亭看雪</h2>
+          <p class="card-author">作者：張岱</p>
+          <p class="card-excerpt">以白描手法寫西湖雪夜「霧凇沆碭，天與雲與山與水，上下一白」的空靈意境與故國之思。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="cross" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-cross">跨年段（國中／高中）</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">將進酒</h2>
+          <p class="card-author">作者：李白</p>
+          <p class="card-excerpt">樂府詩名篇，以豪邁奔放的筆調寫「天生我材必有用」，在酒興狂歌中寄託懷才不遇的深情。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="cross" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-cross">跨年段（國中／高中）</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">種梨</h2>
+          <p class="card-author">作者：蒲松齡</p>
+          <p class="card-excerpt">選自《聊齋誌異》，藉道士幻術懲戒吝嗇鄉人，諷刺世人貪鄙自私、不知施捨的心理。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="cross" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-cross">跨年段（國中／高中）</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">宣州謝朓樓餞別校書叔雲</h2>
+          <p class="card-author">作者：李白</p>
+          <p class="card-excerpt">「抽刀斷水水更流，舉杯銷愁愁更愁」，在餞別宴飲中抒發壯志難酬與渴望逸興高飛的矛盾。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="senior" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-senior">高中選文</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">臺灣古典詩文</h2>
+          <p class="card-author">作者：歷代臺灣文人</p>
+          <p class="card-excerpt">精選清領至日治時期臺灣古典詩文，認識在地風土描寫、開拓歷程與文人關懷。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="senior" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-senior">高中選文</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">出師表</h2>
+          <p class="card-author">作者：諸葛亮</p>
+          <p class="card-excerpt">北伐前夕上呈後主劉禪的奏表，情辭懇切，寄託「鞠躬盡瘁，死而後已」的忠貞與期許。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="senior" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-senior">高中選文</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">勞山道士</h2>
+          <p class="card-author">作者：蒲松齡</p>
+          <p class="card-excerpt">敘王生慕道卻不能吃苦，終致穿牆碰壁，諷刺投機取巧、不願腳踏實地求學之人。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="senior" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-senior">高中選文</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">燭之武退秦師</h2>
+          <p class="card-author">作者：左丘明</p>
+          <p class="card-excerpt">選自《左傳》，記燭之武夜縋而出，憑藉精準分析利害的外交辭令瓦解秦晉聯盟。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="senior" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-senior">高中選文</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">諫逐客書</h2>
+          <p class="card-author">作者：李斯</p>
+          <p class="card-excerpt">以排比鋪陳與「泰山不讓土壤，故能成其大」之喻，成功勸諫秦王收回逐客令。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="senior" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-senior">高中選文</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">大同與小康</h2>
+          <p class="card-author">作者：《禮記》</p>
+          <p class="card-excerpt">選自《禮記．禮運》，勾勒「大道之行也，天下為公」的儒家理想政治藍圖。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="senior" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-senior">高中選文</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">赤壁賦</h2>
+          <p class="card-author">作者：蘇軾</p>
+          <p class="card-excerpt">藉主客問答探討「變與不變」，從「哀吾生之須臾」昇華至「物與我皆無盡也」的哲理豁達。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="senior" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-senior">高中選文</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">鴻門宴</h2>
+          <p class="card-author">作者：司馬遷</p>
+          <p class="card-excerpt">選自《史記．項羽本紀》，透過宴席座次與動作細節，生動刻畫劉邦與項羽的性格高下。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="senior" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-senior">高中選文</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">鹿港乘桴記</h2>
+          <p class="card-author">作者：洪繻</p>
+          <p class="card-excerpt">記乙未割臺後鹿港繁華不再之景，借乘桴浮海之典抒發遺民故國之痛與時代感懷。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="senior" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-senior">高中選文</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">勸和論</h2>
+          <p class="card-author">作者：鄭用錫</p>
+          <p class="card-excerpt">針對清代臺灣分類械鬥頻仍，從情理與利害出發，勸導鄉民放下成見、敦親睦鄰。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="senior" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-senior">高中選文</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">老莊選</h2>
+          <p class="card-author">作者：老子、莊子</p>
+          <p class="card-excerpt">精選《道德經》與《莊子》寓言，體會「無為而無不為」及齊物逍遙的道家智慧。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="senior" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-senior">高中選文</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">陳情表</h2>
+          <p class="card-author">作者：李密</p>
+          <p class="card-excerpt">以至孝真情婉拒晉武帝徵召，情理交融，感人肺腑，被譽為千古至情之作。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="senior" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-senior">高中選文</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">琵琶行并序</h2>
+          <p class="card-author">作者：白居易</p>
+          <p class="card-excerpt">以精妙比喻摹寫琵琶音樂變化，藉琵琶女身世抒發「同是天涯淪落人」的貶謫悲慨。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="senior" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-senior">高中選文</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">詞選</h2>
+          <p class="card-author">作者：唐宋詞人</p>
+          <p class="card-excerpt">涵蓋婉約與豪放名家詞作，品味長短句的音律之美與深婉含蓄的情感張力。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="junior" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-junior">國中選文</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">木蘭詩</h2>
+          <p class="card-author">作者：北朝樂府</p>
+          <p class="card-excerpt">北朝敘事詩傑作，刻畫木蘭代父從軍的英勇孝心與凱旋後不慕榮利的淳樸本色。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="junior" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-junior">國中選文</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">五柳先生傳</h2>
+          <p class="card-author">作者：陶淵明</p>
+          <p class="card-excerpt">陶淵明託名自傳，以「好讀書，不求甚解」、「忘懷得失」勾勒安貧樂道的隱士形象。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="junior" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-junior">國中選文</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">張釋之執法</h2>
+          <p class="card-author">作者：司馬遷</p>
+          <p class="card-excerpt">選自《史記》，記廷尉張釋之據理力爭「法者天子所與天下公共也」，展現公正無私的法治精神。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="junior" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-junior">國中選文</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">歸去來辭</h2>
+          <p class="card-author">作者：陶淵明</p>
+          <p class="card-excerpt">辭去彭澤令時所作，抒發擺脫官場束縛、回歸田園懷抱的欣喜與順應自然的人生觀。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="junior" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-junior">國中選文</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">近體詩選</h2>
+          <p class="card-author">作者：唐代詩人</p>
+          <p class="card-excerpt">選錄唐代絕句與律詩名作，掌握平仄對仗格律與詩人借景抒情的藝術技巧。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+      <article class="lesson-card is-pending" data-grade="junior" data-status="pending">
+        <div>
+          <div class="card-badges">
+            <span class="badge badge-grade-junior">國中選文</span>
+            <span class="badge badge-status-pending">講義整理中</span>
+          </div>
+          <h2 class="card-title">辭選（曲選）</h2>
+          <p class="card-author">作者：元代散曲家</p>
+          <p class="card-excerpt">選錄元代小令名作，感受口語化、活潑自然且兼具襯字韻味的散曲風格。</p>
+        </div>
+        
+        <div class="card-actions">
+          <div class="pending-note">教材校訂排版中，敬請期待</div>
+        </div>
+        
+      </article>
+    
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>生機古文｜國文家教講義與數位學習資源平台 ・ 本站講義僅供學習與教學參考自由下載</p>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
